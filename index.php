@@ -315,35 +315,6 @@
                 </div>
             </div>
         </section>
-
-    <!-- Bootstrap Modal for Quote Request -->
-    <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="quoteModalLabel">Request a Quote</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="submit_quote.php" method="POST">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="eventType" class="form-label">Event Type</label>
-                            <select class="form-select" id="eventType" name="eventType" required>
-                                <option value="wedding">Wedding</option>
-                                <option value="corporate">Corporate</option>
-                                <option value="party">Party</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- Bootstrap JS (for accordion and modal functionality) -->
